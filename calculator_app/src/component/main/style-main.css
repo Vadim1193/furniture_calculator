@@ -1,0 +1,178 @@
+#root {
+    background: #80808040;
+}
+
+.main {
+    padding: 15px 10px;
+    text-align: center;
+    margin: 68px auto;
+    max-width: 850px;
+}
+
+.input_number {
+    max-width: 30%;
+    padding: 3px 0px 3px 5px;
+}
+
+.input_number_multi_flex {
+    max-width: 40%;
+}
+
+.input {
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 0 4px;
+}
+
+.input_unit {
+    width: 70px;
+    padding: 4px;
+    text-align: center;
+}
+
+.multiply {
+    font-size: 14px;
+    padding: 0 2px;
+}
+
+.result_operation {
+    font-size: 15px;
+} 
+
+.title_count {
+    font-size: 19px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.title_in_flex {
+    text-align: left;
+    padding: 0px 0px 10px 13px;
+}
+
+.multi_flex_title {
+    padding: 0px 0px 10px 0px;
+}
+
+.unit_count {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.unit_count_result {
+    padding: 0 2px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.unit_count_result_total {
+    padding: 10px 0;
+    position: relative;
+}
+
+.unit_count_result_total::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 61%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: #1e76b7;
+    display: block;
+}
+
+.buttons_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+}
+
+.btn {
+    border: 1px solid black;
+    background: transparent;
+    padding: 4px 9px;
+    border-radius: 30%;
+}
+
+.btn_minus:hover {
+    background: red;
+    color: white;
+    border-color: red;
+}
+
+.btn_plus:hover {
+    background: green;
+    color: white;
+    border-color: green;
+}
+
+.result {
+    font-weight: 600;
+    margin: 0 3px;
+}
+
+.wrapper_flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 11px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.wrapper_flex_container {
+    padding: 10px 0;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    flex: 1 0 49%;
+    background: white;
+}
+
+.multi_flex{
+    flex: 1 0 auto;
+}
+
+.open_modal {
+    font-size: 17px;
+}
+
+.d_none {
+    opacity: 0;
+}
+
+.input_numbermulti_flex {
+    text-align: center;
+    padding: 3px 0px;
+}
+
+@media (max-width: 767px) {
+
+    .input {
+        margin: 0 2px;
+    }
+
+    .input_number {
+        max-width: 21%;
+        text-align: center;
+    }
+
+    .wrapper_flex {
+        margin-bottom: 10px;
+    }
+
+    .input_unit {
+        max-width: 23%;
+        padding: 4px;
+    }
+
+    .title_in_flex {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .input_numbermulti_flex {
+        max-width: 50%;
+    }
+}

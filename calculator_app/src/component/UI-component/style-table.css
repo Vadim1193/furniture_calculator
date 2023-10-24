@@ -1,0 +1,193 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+th, td {
+    padding: 0.4em 0;
+}
+  
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr td:last-child::before {
+    content: none;
+}
+
+.title_check {
+    font-weight: 600;
+    padding-right: 0.7em;
+}
+
+.title_date {
+    padding-left: 0.7em;
+}
+
+.wrapper_table {
+    width: 100%;
+}
+
+.info_table_left {
+    padding-left: 0.7em;
+    text-align: left;
+    position: relative;
+}
+.info_table_right::before,
+.info_table_left::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    right: 0;
+    bottom: 0;
+    height: 80%;
+    display: block;
+    background: #494f71;
+}
+
+.info_table_right{
+    padding-right: 0.7em;
+    text-align: right;
+    position: relative;
+}
+
+.table_count_materials {
+    padding: 0em 0.5em;
+}
+
+.check {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.4em;
+}
+
+.info {
+    border-top: 1px solid #494f71;;
+    border-bottom: 1px solid  #494f71;
+}
+
+.item_prise {
+    font-weight: 600;
+}
+
+.service_name {
+    padding: 0.4em 0em 0.4em 0.7em;
+}
+.service_price {
+    padding: 0.4em 0.7em 0.4em 0em;
+}
+
+.service {
+    border-bottom: 1px solid #494f71;
+    padding: 0;
+}
+
+.finaly_calc {
+    background: #1eb92c3d;
+}
+
+.close_button {
+    position: absolute;
+    top: 0px;
+    left: 165%;
+    border: 1px solid black;
+    width: 32px;
+    height: 30px;
+    border-radius: 5px ;
+}
+
+.close_button::before,
+.close_button::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 23px;
+    background: black;
+    left: 50%;
+    transition: all 0.4s ease;
+}
+
+.close_button::after {
+    transform: translate( 0%, -50%) rotate(90deg) scale(1);
+}
+
+.close_button::before {
+    transform: translate( 0%, -50%) rotate(-90deg) scale(1);
+}
+
+.close_button:hover::after {
+    transform: translate( 0%, -50%) rotate(45deg) scale(1.1);
+}
+
+.close_button:hover::before {
+    transform: translate( 0%, -50%) rotate(-45deg) scale(1.1);
+}
+
+.footer_check {
+    text-align: left;
+}
+
+.warning_text {
+    color: gray;
+    padding: 0.4em 0em 0.4em 0.3em;
+    margin-bottom: 2em;
+}
+
+.thanks_text {
+    font-weight: 600;
+    text-align: center;
+    padding: 0.2em 0em;
+}
+
+.phones {
+    text-align: left;
+    font-size: 0.9em;
+}
+
+.phones_number {
+    padding: 0.1em 0em 0.1em 0.7em;
+}
+
+.wrapper_contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5em;
+}
+
+.qr_code {
+    padding-right: 0.77em;
+}
+
+.link_ovner_company {
+    font-size: 0.7em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+@media(max-width: 767px) {
+    tr td:nth-child(3) {
+        text-align: center;
+        padding: 0em 0.3em;
+    }
+
+    .close_button {
+        width: 20px;
+        height: 20px;
+        top: 4px;
+        left: 94%;
+    }
+
+    .close_button::before,
+    .close_button::after {
+        content: "";
+        width: 1px;
+        height: 11px;
+    }
+
+    .warning_text {
+        margin-bottom: 0.4em;
+    }
+}
