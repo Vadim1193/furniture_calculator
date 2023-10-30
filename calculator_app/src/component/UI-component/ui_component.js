@@ -11,7 +11,7 @@ const ModalContent = styled.div`
     text-align: center;
     padding: 25px 20px;
     border-radius: 5px;
-    height: 97%;
+    height: 100%;
     background-color: white;
 
     display: flex;
@@ -24,6 +24,7 @@ const ModalContent = styled.div`
         width: 95%;
         height: 97%;
         font-size: 1em;
+        overflow: hidden;
     }
 `;
 

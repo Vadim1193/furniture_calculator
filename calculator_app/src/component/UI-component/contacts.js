@@ -12,7 +12,7 @@ export default function CompanyContacts() {
             </div>
             <div className="contacts qr_code">
                 {Pictire}
-                <p className="link_ovner_company">@merkulov_mebel</p>
+                <p className="link_ovner_company">merkulov_mebel</p>
             </div>
         </div>
     )

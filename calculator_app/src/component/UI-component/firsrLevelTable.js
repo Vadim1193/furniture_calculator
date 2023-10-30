@@ -7,7 +7,7 @@ export default function FirstLevelTable() {
         const itemQuantityData = [...sheetsCounterData, ...cromkaData, ...multiCounterData];
         const tranformQuantityData = itemQuantityData.map((item) => ({
             ...item,
-            result: parseFloat(item.result)
+            result: parseFloat(item.result),
         }));
     
         return tranformQuantityData;
@@ -15,7 +15,7 @@ export default function FirstLevelTable() {
     const tranformItemQuantityData = doItTranformForTableFirstLever();
     const filteredItemQuantityData = tranformItemQuantityData.filter((item) => item.result !== 0);
     const resultFilteredItemQuantityData = filteredItemQuantityData.reduce((acc, curr) => acc + Number(curr.result), 0);
-
+    
     return {
         FirstItemQuantityData: (
             <>

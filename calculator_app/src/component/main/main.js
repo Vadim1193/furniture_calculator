@@ -21,17 +21,22 @@ export default function Main() {
             </div>
         )
     }
+
+    const Separator = () => <div className='separator'></div>;
     
     return (
         <main className="main">
             <SheetsCounterCard/>
+            <Separator />
             <WrapperFlex>
                 <CromkaCounterCard/> 
             </WrapperFlex>   
             <StickerCounterCard/>
+            <Separator />
             <WrapperFlex>
                 <MultiCounterData/> 
             </WrapperFlex>
+            <Separator />
             <WrapperFlex>
                 <SingleCounterData/>
             </WrapperFlex>

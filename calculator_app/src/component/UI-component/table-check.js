@@ -1,5 +1,5 @@
 import './style-table.css';
-import FooretCheck from './footerCheck';
+import FooterCheck from './footerCheck';
 import HeaderCheck from './headerCheck';
 import FirstLevelTable from './firsrLevelTable';
 import MiddleLevelTable from './middleLevelTable';
@@ -38,7 +38,7 @@ export default function TableCheck() {
             {FirstItemQuantityData}
             {MiddleItemQuantityData}
             <FinalyResultCalc />
-            <FooretCheck />
+            <FooterCheck />
         </div>
     )
 }

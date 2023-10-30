@@ -83,12 +83,34 @@ const initialState = {
             ],
         },
         {
+            title: 'Підйомники', 
+            titleCheck: 'Підйомники',
+            quantityElem: 'одиниць.',
+            result: 0,
+            totalAmountOfMaterial: 0,
+            id: 2,
+            countBlocks: [
+                { id: 1, price: 0, amountElements: 0},
+            ],
+        },
+        {
+            title: 'Стiльниця', 
+            titleCheck: 'Стiльниця',
+            quantityElem: 'одиниць.',
+            result: 0,
+            totalAmountOfMaterial: 0,
+            id: 3,
+            countBlocks: [
+                { id: 1, price: 0, amountElements: 0},
+            ],
+        },
+        {
             title: 'Ручки', 
             titleCheck: 'Ручки',
             quantityElem: 'одиниць.',
             result: 0,
             totalAmountOfMaterial: 0,
-            id: 2,
+            id: 4,
             countBlocks: [
                 { id: 1, price: 0, amountElements: 0},
             ],
@@ -99,7 +121,7 @@ const initialState = {
             quantityElem: 'одиниць.',
             result: 0,
             totalAmountOfMaterial: 0,
-            id: 3,
+            id: 5,
             countBlocks: [
                 { id: 1, price: 0, amountElements: 0},
             ],
@@ -107,10 +129,10 @@ const initialState = {
     ],
     singleCounterData: [
         {
-            title: 'Метизи',
+            title: 'Фасади',
             total: 0,
             id: 0,
-            titleCheck: 'Mетизна продукцiя',
+            titleCheck: 'Фасади',
         },
         {
             title: 'Cистема',
@@ -119,15 +141,27 @@ const initialState = {
             titleCheck: 'Cистема',
         },
         {
-            title: 'Фарбування',
+            title: 'Сушка',
             total: 0,
             id: 2,
-            titleCheck: 'Фарбування',
+            titleCheck: 'Сушка',
+        },
+        {
+            title: 'Пiдвiси',
+            total: 0,
+            id: 3,
+            titleCheck: 'Пiдвiси',
+        },
+        {
+            title: 'Витратнi матерiали',
+            total: 0,
+            id: 4,
+            titleCheck: 'Витратнi матерiали',
         },
         {
             title: '% з суми',
             total: 0,
-            id: 3,
+            id: 5,
         },
     ]
 }

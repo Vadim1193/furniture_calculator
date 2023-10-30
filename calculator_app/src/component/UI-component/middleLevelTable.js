@@ -2,8 +2,10 @@ import { useSelector } from 'react-redux';
 
 export default function MiddleLevelTable() {
     const {sheetsCounterData, singleCounterData, stickerData} = useSelector((store) => store.data);
+    
+    const companyProcentage = singleCounterData.find((data) => data.title === '% з суми');
+    const companyProcent = Number(companyProcentage.total);
 
-    const companyProcent = Number(singleCounterData[3].total);
     const sticker = stickerData[0].total;
     const singleData = singleCounterData.slice(0, -1);
 
@@ -31,8 +33,8 @@ export default function MiddleLevelTable() {
     return {
         MiddleItemQuantityData: (
             <>
-                {quantityDataServies.map((item) => (
-                    <div className='check service' key={item.id}>
+                {quantityDataServies.map((item, index) => (
+                    <div className='check service' key={index}>
                         <p className='service_name'>{item.titleCheck}</p>
                         <p className='service_price'><span className='item_prise'>{item.total}</span> грн.</p>
                     </div>
