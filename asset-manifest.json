@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/furniture_calculator/static/css/main.e8fdef48.css",
-    "main.js": "/furniture_calculator/static/js/main.e6ecff53.js",
+    "main.css": "/furniture_calculator/static/css/main.ab3d004f.css",
+    "main.js": "/furniture_calculator/static/js/main.1d47c4de.js",
     "static/js/787.97c71ab1.chunk.js": "/furniture_calculator/static/js/787.97c71ab1.chunk.js",
-    "static/media/qrcode.jpg": "/furniture_calculator/static/media/qrcode.fd1a1c40befacf95a03e.jpg",
+    "static/media/qrcode.jpg": "/furniture_calculator/static/media/qrcode.ca3fe36d8d504dd4222b.jpg",
     "index.html": "/furniture_calculator/index.html",
-    "main.e8fdef48.css.map": "/furniture_calculator/static/css/main.e8fdef48.css.map",
-    "main.e6ecff53.js.map": "/furniture_calculator/static/js/main.e6ecff53.js.map",
+    "main.ab3d004f.css.map": "/furniture_calculator/static/css/main.ab3d004f.css.map",
+    "main.1d47c4de.js.map": "/furniture_calculator/static/js/main.1d47c4de.js.map",
     "787.97c71ab1.chunk.js.map": "/furniture_calculator/static/js/787.97c71ab1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8fdef48.css",
-    "static/js/main.e6ecff53.js"
+    "static/css/main.ab3d004f.css",
+    "static/js/main.1d47c4de.js"
   ]
 }
