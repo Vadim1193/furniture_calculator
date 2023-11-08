@@ -162,10 +162,9 @@ tr td:last-child::before {
 }
 
 .link_ovner_company {
-    font-size: 0.7em;
+    font-size: 0.68em;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
 }
 
 @media(max-width: 767px) {
